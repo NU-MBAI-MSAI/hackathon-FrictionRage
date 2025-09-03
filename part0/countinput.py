@@ -1,4 +1,4 @@
-def countchars:
+def countchars(st):
     exclude = {' ', '.', '!', ','}
     count = 0
     for ch in st:
