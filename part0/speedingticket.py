@@ -1,14 +1,14 @@
 
-speedLimit = input()
-drivingSpeed = input()
+speedLimit = int(input())
+drivingSpeed = int(input())
 
 diff = drivingSpeed - speedLimit
 
 if diff <= -10:
   print(50)
-else if diff >= 6 && diff <= 20:
+else if diff >= 6 and diff <= 20:
   print(75)
-else if diff >=21 && diff <= 40:
+else if diff >=21 and diff <= 40:
   print(100)
 else if diff >= 41:
   print(300)
