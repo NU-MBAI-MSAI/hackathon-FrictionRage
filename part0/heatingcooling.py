@@ -3,10 +3,10 @@ heatingDays=0
 coolingDays=0
 
 while avgTemp >= -459: 
-  avgTemp=input("Enter the average daily temperature: ")
-  if avgTemp<60:
+  avgTemp=int(input("Enter the average daily temperature: "))
+  if avgTemp < 60 and avgTemp >=-459:
     heatingDays += 1
-  else if avgTemp > 80:
+  elif avgTemp > 80:
     coolingDays +=1
 
 
