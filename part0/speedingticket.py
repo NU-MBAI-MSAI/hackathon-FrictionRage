@@ -2,7 +2,8 @@ speedLimit = int(input())
 drivingSpeed = int(input())
 
 diff = drivingSpeed - speedLimit
-
+if drivingSpeed < 0 or speedLimit < 0:
+  sys.end()
 if diff <= -10:
   print(50)
 elif diff >= 6 and diff <= 20:
